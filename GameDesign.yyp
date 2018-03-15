@@ -210,6 +210,25 @@
             }
         },
         {
+            "Key": "563e6887-dfd2-4a9e-984b-77366ace4ade",
+            "Value": {
+                "id": "476927c2-2a59-4ae6-b706-5a7f22da3aec",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/player\/player.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6f87fea9-49f6-40bb-80b6-1ce192d58f04",
             "Value": {
                 "id": "7d9e0f39-57aa-4030-af36-bba94673e305",
@@ -302,6 +321,25 @@
                 ],
                 "resourcePath": "views\/afa8be4c-a0f2-45d9-a93a-025929080972.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b19de4e9-bf38-4ee0-9886-2dc8c8d4e3dc",
+            "Value": {
+                "id": "48181237-1a5c-476c-a87a-c430d70d662e",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/mask\/mask.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -416,6 +454,25 @@
                 ],
                 "resourcePath": "options\/mac\/options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f7d88c27-4276-4fa8-8d3e-036da82cf117",
+            "Value": {
+                "id": "5239c558-4a1e-4d46-8db6-69d0f4e1c11b",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "tilesets\/maskset\/maskset.yy",
+                "resourceType": "GMTileSet"
             }
         }
     ],
