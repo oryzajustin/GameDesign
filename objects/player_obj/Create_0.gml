@@ -1,32 +1,21 @@
-/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
-/// @DnDHash : 1D8DDC23
-/// @DnDArgument : "expr" "5"
-/// @DnDArgument : "var" "movespeed"
+/// @DnDHash : 31ECF69B
+/// @DnDArgument : "code" "playerId = global.PlayersOnMap;$(13_10)$(13_10)leftkey = global.PlayerLeft[playerId];$(13_10)rightkey = global.PlayerRight[playerId];$(13_10)upkey = global.PlayerUp[playerId];$(13_10)downkey = global.PlayerDown[playerId];$(13_10)placekey = global.PlayerPlace[playerId];$(13_10)$(13_10)home_x = global.PlayerStartx[playerId];$(13_10)home_y = global.PlayerStarty[playerId];$(13_10)$(13_10)sprite_index = global.Playersprite[playerId];$(13_10)$(13_10)global.playerscores[playerId] = 0$(13_10)movespeed = 5;$(13_10)hasTrap = 0;$(13_10)hasScroll = 0;$(13_10)"
+playerId = global.PlayersOnMap;
+
+leftkey = global.PlayerLeft[playerId];
+rightkey = global.PlayerRight[playerId];
+upkey = global.PlayerUp[playerId];
+downkey = global.PlayerDown[playerId];
+placekey = global.PlayerPlace[playerId];
+
+home_x = global.PlayerStartx[playerId];
+home_y = global.PlayerStarty[playerId];
+
+sprite_index = global.Playersprite[playerId];
+
+global.playerscores[playerId] = 0
 movespeed = 5;
-
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 26010730
-/// @DnDArgument : "expr" "112"
-/// @DnDArgument : "var" "home_x"
-home_x = 112;
-
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 3BEE1697
-/// @DnDArgument : "expr" "112"
-/// @DnDArgument : "var" "home_y"
-home_y = 112;
-
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 1102CBD1
-/// @DnDArgument : "var" "hasTrap"
 hasTrap = 0;
-
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 33548A37
-/// @DnDArgument : "var" "hasScroll"
 hasScroll = 0;

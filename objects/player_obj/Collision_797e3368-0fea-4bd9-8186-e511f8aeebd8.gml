@@ -43,10 +43,8 @@ with(other) {
 				/// @DnDVersion : 1
 				/// @DnDHash : 38EFA411
 				/// @DnDParent : 6C87C668
-				/// @DnDArgument : "value" "-1"
-				/// @DnDArgument : "value_relative" "1"
-				/// @DnDArgument : "var" "ScrollOnMap"
-				global.ScrollOnMap += -1;
+				/// @DnDArgument : "var" "ScrollsOnMap"
+				global.ScrollsOnMap = 0;
 			}
 		
 			/// @DnDAction : YoYo Games.Movement.Jump_To_Point
