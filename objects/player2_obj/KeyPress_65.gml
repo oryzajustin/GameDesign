@@ -1,8 +1,9 @@
-/// @DnDAction : YoYo Games.Instances.Sprite_Rotate
+/// @DnDAction : YoYo Games.Instances.Sprite_Scale
 /// @DnDVersion : 1
-/// @DnDHash : 0B0D88C8
-/// @DnDArgument : "angle" "180"
-image_angle = 180;
+/// @DnDHash : 0F57014D
+/// @DnDArgument : "xscale" "-1"
+image_xscale = -1;
+image_yscale = 1;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1

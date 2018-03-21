@@ -11,9 +11,3 @@ vspeed = -movespeed;
 /// @DnDArgument : "expr" "1"
 /// @DnDArgument : "var" "moving"
 moving = 1;
-
-/// @DnDAction : YoYo Games.Instances.Sprite_Rotate
-/// @DnDVersion : 1
-/// @DnDHash : 6A84998C
-/// @DnDArgument : "angle" "90"
-image_angle = 90;

@@ -10,11 +10,11 @@ if(global.ScrollOnMap < 1)
 	/// @DnDVersion : 1
 	/// @DnDHash : 7525D9EA
 	/// @DnDParent : 761EDEB4
-	/// @DnDArgument : "xpos" "505"
-	/// @DnDArgument : "ypos" "425"
+	/// @DnDArgument : "xpos" "500"
+	/// @DnDArgument : "ypos" "380"
 	/// @DnDArgument : "objectid" "scroll_obj"
-	/// @DnDSaveInfo : "objectid" "5597b08b-444e-4909-8863-5abddebff324"
-	instance_create_layer(505, 425, "Instances", scroll_obj);
+	/// @DnDSaveInfo : "objectid" "7b91a114-853d-46a2-8a42-27de6a67ae0b"
+	instance_create_layer(500, 380, "Instances", scroll_obj);
 
 	/// @DnDAction : YoYo Games.Common.Set_Global
 	/// @DnDVersion : 1

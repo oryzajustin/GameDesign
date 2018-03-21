@@ -1,9 +1,3 @@
-/// @DnDAction : YoYo Games.Instances.Sprite_Rotate
-/// @DnDVersion : 1
-/// @DnDHash : 7419CC05
-/// @DnDArgument : "angle" "-90"
-image_angle = -90;
-
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 518F4619
